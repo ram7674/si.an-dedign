@@ -403,7 +403,7 @@
     height: 164px;
 }
 .BlogCategories_solutionItem__T0z7U:hover {
-    background: linear-gradient(180deg, hsla(0, 0%, 97%, 0) 21%, #ffe9ed);
+    background: linear-gradient(180deg, hsla(0, 0%, 97%, 0) 21%, hsl(180, 26%, 82%));
     cursor: pointer;
 }
 .btn, a, button, input, select {
@@ -434,7 +434,29 @@
 .all-title1{
     color: #008080;
 }
-
+.about-page-card-bg{
+    background-color: #dceded;
+}
+.submit-btn-c{
+    background-color: #6da9a9;
+    color: #fff;
+}
+.submit-btn-icon{
+    background-color: #008080 !important;
+}
+.submit-btn-c:hover{
+    border: 2px solid #008080 !important;
+    color: #008080 !important;
+    background-color: #FFF !important;
+}
+.submit-btn-c:hover .submit-btn-icon i{
+    color: #ffffff !important;
+    border: 1px solid #008080;
+}
+.Interiour-design-title{
+    color: #008080;
+    font-weight: 600;
+}
 
 /* custome css */
 .top-bar{
