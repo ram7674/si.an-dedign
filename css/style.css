@@ -275,7 +275,7 @@
 
 /*** Service ***/
 .service-item {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid #a0d1d1;
     border-radius: 10px;
 }
 
@@ -503,8 +503,6 @@ select {
     background-color: #373737;
 }
 
-.navbar-bg {}
-
 .top-navbar-text {
     font-family: "latoregular", sans-serif;
     font-weight: 700;
@@ -528,7 +526,20 @@ select {
     background-color: #F1F1F2;
     padding: 0px
 }
-
+.about-text-bg{
+    width: 200px;
+}
+.why-shoose-us-title{
+    font-size: 22px;
+}
+.why-choose-image{
+    height: 114px;
+    width: 114px;
+}
+.hero-sec-title{
+    font-size: 23px;
+    text-align: justify;
+}
 
 /* ============ desktop view ============ */
 
@@ -579,6 +590,7 @@ select {
         margin-bottom: .5rem;
     }
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: #000000;
     font-weight: 600;
