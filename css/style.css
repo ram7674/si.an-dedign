@@ -91,7 +91,7 @@
     margin-left: 8px;
 }
 
-.navbar .navbar-nav .nav-link {
+/* .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
     color: #000000;
@@ -133,7 +133,7 @@
         transition: .5s;
         opacity: 1;
     }
-}
+} */
 
 .interior-logo {
     height: 50px;
@@ -565,7 +565,8 @@ select {
     .navbar-expand-lg .navbar-collapse {
         display: flex !important;
         flex-basis: auto;
-        margin-left: 59%;
+        margin-left: 50%;
+        height: 74px;
     }
 }
 /* ============ desktop view .end// ============ */
@@ -578,6 +579,12 @@ select {
         margin-bottom: .5rem;
     }
 }
+.navbar-dark .navbar-nav .nav-link {
+    color: #000000;
+    font-weight: 600;
+}
+
+
 /* ============ small devices .end// ============ */
 
 
