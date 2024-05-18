@@ -44,71 +44,88 @@
 
 
     <!-- Navbar Start -->
-    <nav>
-        <div class="navbar">
-            <i class='bx bx-menu'></i>
-            <div class="logo"><a href="#">
-                <img src="img/Si.An Design Studio_Transp.png" alt="logo" class="interior-logo" />
-            </a></div>
-            <div class="nav-links">
-                <div class="sidebar-logo">
-                    <img src="img/Si.An Design Studio_Transp.png" alt="logo" class="interior-logo" />
-                    <i class='bx bx-x'></i>
-                </div>
-                <ul class="links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li>
-                        <a href="#">Services</a>
-                        <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
-                        <ul class="htmlCss-sub-menu sub-menu">
-                            <li class="more">
-                                <span><a href="#">2-BHK</a>
-                                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
-                                </span>
-                                <ul class="more-sub-menu sub-menu">
-                                    <li><a href="#">Low</a></li>
-                                    <li><a href="#">Medium</a></li>
-                                    <li><a href="#">Heigh</a></li>
-                                </ul>
-                            </li>
-                            <li class="more">
-                                <span><a href="#">3-BHK</a>
-                                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
-                                </span>
-                                <ul class="more-sub-menu sub-menu">
-                                    <li><a href="#">Low</a></li>
-                                    <li><a href="#">Medium</a></li>
-                                    <li><a href="#">Heigh</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Kitchen</a></li>
-                            <li><a href="#">Ceilling</a></li>
-                        </ul>
-                    </li>
-                    <!-- <li>
-                        <a href="#">JAVASCRIPT</a>
-                        <i class='bx bxs-chevron-down js-arrow arrow '></i>
-                        <ul class="js-sub-menu sub-menu">
-                            <li><a href="#">Dynamic Clock</a></li>
-                            <li><a href="#">Form Validation</a></li>
-                            <li><a href="#">Card Slider</a></li>
-                            <li><a href="#">Complete Website</a></li>
-                        </ul>
-                    </li> -->
-                    <li><a href="cities.html">Cities</a></li>
-                    <li><a href="design-ideas.html">Design Iideas</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <!-- top navbar -->
+        <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small class="top-navbar-text"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
+                <small class="ms-4 top-navbar-text"><i class="fa fa-envelope me-2"></i>info@example.com</small>
             </div>
-            <div class="search-box">
-                <i class='bx bx-search'></i>
-                <div class="input-box">
-                    <input type="text" placeholder="Search...">
-                </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small class="top-navbar-text">Follow us:</small>
+                <a class="ms-3 top-navbar-text" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="ms-3 top-navbar-text" href=""><i class="fab fa-twitter"></i></a>
+                <a class="ms-3 top-navbar-text" href=""><i class="fab fa-linkedin-in"></i></a>
+                <a class="ms-3 top-navbar-text" href=""><i class="fab fa-instagram"></i></a>
             </div>
         </div>
-    </nav>
+        <!-- inner section navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="navbar">
+                <i class='bx bx-menu'></i>
+                <div class="logo"><a href="#">
+                    <img src="img/SIAN-LOGO.png" alt="logo" class="interior-logo" />
+                </a></div>
+                <div class="nav-links">
+                    <div class="sidebar-logo">
+                        <img src="img/SIAN-LOGO.png" alt="logo" class="interior-logo" />
+                        <i class='bx bx-x'></i>
+                    </div>
+                    <ul class="links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li>
+                            <a href="#">Services</a>
+                            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                            <ul class="htmlCss-sub-menu sub-menu">
+                                <li class="more">
+                                    <span><a href="#">2-BHK</a>
+                                        <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                                    </span>
+                                    <ul class="more-sub-menu sub-menu">
+                                        <li><a href="#">Low</a></li>
+                                        <li><a href="#">Medium</a></li>
+                                        <li><a href="#">Heigh</a></li>
+                                    </ul>
+                                </li>
+                                <li class="more">
+                                    <span><a href="#">3-BHK</a>
+                                        <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                                    </span>
+                                    <ul class="more-sub-menu sub-menu">
+                                        <li><a href="#">Low</a></li>
+                                        <li><a href="#">Medium</a></li>
+                                        <li><a href="#">Heigh</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Kitchen</a></li>
+                                <li><a href="#">Ceilling</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li>
+                            <a href="#">JAVASCRIPT</a>
+                            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                            <ul class="js-sub-menu sub-menu">
+                                <li><a href="#">Dynamic Clock</a></li>
+                                <li><a href="#">Form Validation</a></li>
+                                <li><a href="#">Card Slider</a></li>
+                                <li><a href="#">Complete Website</a></li>
+                            </ul>
+                        </li> -->
+                        <li><a href="cities.html">Cities</a></li>
+                        <li><a href="design-ideas.html">Design Iideas</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="search-box">
+                    <i class='bx bx-search'></i>
+                    <div class="input-box">
+                        <input type="text" placeholder="Search...">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
     <!-- Navbar End -->
 
 
