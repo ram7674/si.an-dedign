@@ -212,6 +212,38 @@
 
 
 
+
+
+
+
+
+
+
+
+
+/*** Facts & Quote ***/
+/* .facts,
+.quote {
+    background: rgba(15, 66, 41, .6);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*** Service ***/
 .service-item {
     border: 2px solid #a0d1d1;
@@ -220,7 +252,7 @@
 
 
 /*** Donate ***/
-.donate {
+/* .donate {
     background: rgb(232, 234, 233);
 }
 
@@ -228,7 +260,7 @@
 .btn-group input[type="radio"]:checked+label {
     color: var(--primary);
     border-color: var(--primary);
-}
+} */
 
 
 
@@ -487,8 +519,15 @@ select {
     font-size: 23px;
     text-align: justify;
 }
-
-
+.quite-sec-btn{
+    background-color: #008080;
+    color: #fff;
+}
+.quite-sec-btn:hover{
+    background-color: #fff;
+    color: #008080;
+    border: 2px solid #008080;
+}
 /* .interior-images{
     height: 100px;
 }
