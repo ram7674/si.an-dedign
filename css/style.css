@@ -181,7 +181,7 @@
     border: 1px solid var(--bs-white);
     background: var(--bs-primary);
     position: absolute;
-    top: 55%;
+    top: 60%;
     transform: translateY(-55%);
 }
 
@@ -747,7 +747,7 @@ select {
 .home-slider-image {
     height: 80vh;
     width: 100vw;
-    margin-top: 70px;
+    margin-top: 115px;
     background-position: center;
     background-size: cover;
     object-fit: cover;
@@ -842,11 +842,27 @@ select {
     cursor: pointer;
 }
 
+.carousel-control-prev-btn {
+    margin-left: 20px;
+    position: absolute;
+    top: 43%;
+    left: -17px;
+    background: transparent;
+}
+.carousel-control-next-btn{
+    margin-left: 20px;
+    position: absolute;
+    top: 43%;
+    right: 0;
+    background: transparent;
+}
+
 
 
 
 /* small devices responsive */
 @media screen and (max-width: 767px) {
+
 
     .testimonial-carousel .owl-nav {
         width: 276px;
@@ -859,6 +875,14 @@ select {
     #header-carousel .carousel-item {
         position: relative;
         min-height: 250px;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 48px;
+        height: 48px;
+        top: 46%;
+        transform: translateY(51%);
     }
 
     .all-titles-fonts {
@@ -881,7 +905,6 @@ select {
         text-align: justify;
         margin-bottom: 0px !important;
     }
-
     .interior-card {
         width: 41%;
         padding: 10px;
@@ -910,8 +933,17 @@ select {
     .contact-section-main {
         margin-top: 84px;
     }
-    .carousel-control-prev-below, .carousel-control-next-below{
-        top: 23% !important;
+    .home-slider-image {
+        margin-top: 57px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        top: 35%;
+    }
+    .carousel-control-next-btn {
+        top: 33%;
+    }
+    .carousel-control-prev-btn {
+        top: 33%;
     }
 }
 
@@ -932,8 +964,13 @@ select {
     .contact-section-main {
         margin-top: 93px;
     }
-    .carousel-control-prev-below, .carousel-control-next-below{
-        top: 50% !important;
+    .home-slider-image {
+        height: 80vh;
+        width: 100vw;
+        margin-top: 57px;
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
     }
 }
 
