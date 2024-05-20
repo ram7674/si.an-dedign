@@ -863,7 +863,6 @@ select {
 /* small devices responsive */
 @media screen and (max-width: 767px) {
 
-
     .testimonial-carousel .owl-nav {
         width: 276px;
     }
@@ -944,6 +943,11 @@ select {
     }
     .carousel-control-prev-btn {
         top: 35%;
+    }
+    .navbar .links li .sub-menu li {
+        padding: 0 20px;
+        width: 120px;
+        background: #add4e1 !important;
     }
 }
 
